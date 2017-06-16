@@ -26,17 +26,17 @@
                                 <rect key="frame" x="206.5" y="33" width="155" height="254.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="XvU-TJ-hBz">
-                                        <rect key="frame" x="0.0" y="0.5" width="155" height="175.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="155" height="175.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqc-0O-ldO">
-                                                <rect key="frame" x="0.0" y="0.5" width="155" height="155"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="155" height="155"/>
                                                 <state key="normal" image="RecordButton"/>
                                                 <connections>
                                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LVW-Yd-ZYo"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWH-rx-2sd">
-                                                <rect key="frame" x="0.0" y="155.5" width="155" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="155" width="155" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -44,7 +44,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wHv-SR-DUX">
-                                        <rect key="frame" x="45.5" y="191" width="64" height="64"/>
+                                        <rect key="frame" x="45.5" y="190.5" width="64" height="64"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TcZ-pD-UcS">
                                                 <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
@@ -189,6 +189,10 @@
                     <connections>
                         <outlet property="chipmunkButton" destination="wHq-BZ-bUK" id="3QZ-yz-R6v"/>
                         <outlet property="echoButton" destination="zRA-eG-SS3" id="VJ3-P7-PUH"/>
+                        <outlet property="innerStackView1" destination="ozN-7T-ril" id="QlE-ar-eND"/>
+                        <outlet property="innerStackView2" destination="xcd-p3-2OC" id="5eH-cj-JBg"/>
+                        <outlet property="innerStackView3" destination="gOv-P8-vSd" id="ZX8-Mk-erM"/>
+                        <outlet property="outerStackView" destination="KyJ-t2-61E" id="MKH-Tm-PLK"/>
                         <outlet property="rabbitButton" destination="Ie0-Ee-oAE" id="fHb-AT-2YC"/>
                         <outlet property="reverbButton" destination="Ed1-QQ-0k7" id="9iY-yF-iWS"/>
                         <outlet property="snailButton" destination="AaR-e8-5zr" id="jyH-pz-lKe"/>
